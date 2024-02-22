@@ -1,0 +1,64 @@
+.container{
+    min-height: 100vh;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    background-color: rgb(120, 115, 108);
+    border-radius: 20px;
+}
+.vez{
+    display: flex;
+}
+
+#left, #right{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border: 3px dashed #fff;
+    border-radius: 5px;
+}
+#botton{
+    width: 640px;
+    height: 300px;
+    border: 2px dashed #fff;
+    overflow-y: scroll;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: rgb(110, 105, 118);
+    border-radius: 5px;
+    margin: 10px;
+    cursor: grab;
+}
+.ft{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px rgb(40, 28, 87);
+}
+
+.nome{
+    color: rgb(208, 216, 216);
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+    margin:     20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
